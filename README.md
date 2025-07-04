@@ -1,8 +1,9 @@
 # ATS Resume Tracker Project
-🧠 ATS Resume Expert — Streamlit App Powered by Gemini Vision API
+# 🧠 ATS Resume Expert — Streamlit App Powered by Gemini Vision API
+
 This project is an AI-powered ATS (Applicant Tracking System) Resume Scanner built with Streamlit and Google Gemini-Pro Vision API. It analyzes resumes (in PDF format) against job descriptions and evaluates the alignment using LLMs. This tool can help candidates understand how well their resume matches a given job description and how to improve it.
 
-🚀 Features
+# 🚀 Features
 ✅ Upload your resume in PDF format
 
 ✅ Enter any job description
@@ -15,7 +16,7 @@ This project is an AI-powered ATS (Applicant Tracking System) Resume Scanner bui
 
 ✅ Beautiful Streamlit interface
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 ## * Python
 
 ## * Streamlit – for the web interface
@@ -28,13 +29,13 @@ This project is an AI-powered ATS (Applicant Tracking System) Resume Scanner bui
 
 ## * dotenv – secure API key management
 
-📷 Screenshots
+# 📷 Screenshots
 Add screenshots of the app UI here for visual appeal.
 ![Screenshot 2025-07-04 122450](https://github.com/user-attachments/assets/c66eb8f2-ee87-46f1-ab97-a9dc6b474857)
 ![Screenshot 2025-07-04 122349](https://github.com/user-attachments/assets/6d83db57-506f-4d0b-9f45-75be1392b280)
 
 
-🔧 Setup Instructions
+# 🔧 Setup Instructions
 #### 1) Clone the repository
 C:\Users\pm\Desktop\ATS Resume Tracker\venv
 
@@ -52,7 +53,7 @@ pip install -r requirements.txt
 #### 4) Run the Streamlit app
 ##### > streamlit run app.py
 
-💡 How It Works
+# 💡 How It Works
 
 #### * When you upload a resume (PDF), it is converted to an image.
 
@@ -64,7 +65,7 @@ pip install -r requirements.txt
 
 #####   ----> Returns a match percentage, missing keywords, and improvement advice.
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 #### * Add multi-page PDF support
 
@@ -74,7 +75,7 @@ pip install -r requirements.txt
 
 #### * Add visual resume scoring dashboard
 
-code ------->
+# code ------->
 
 from dotenv import load_dotenv
 
