@@ -78,7 +78,7 @@ pip install -r requirements.txt
 #### * Add visual resume scoring dashboard
 
 
-
+ http://192.168.1.2:8501
 
 🙋‍♂️
 Prajwal Ghotkar
