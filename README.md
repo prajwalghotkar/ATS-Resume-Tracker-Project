@@ -39,23 +39,21 @@ pip install -r requirements.txt
 - pdf2image
 
 #### 3) Set up your .env file
-##### ---> Create a .env file in the root directory and add your Google API key:
-#### > GOOGLE_API_KEY=your_google_generativeai_api_key
+- Create a .env file in the root directory and add your Google API key:
+  - GOOGLE_API_KEY=your_google_generativeai_api_key
 
 #### 4) Run the Streamlit app
-##### > streamlit run app.py
+- streamlit run app.py
 
 # How It Works
 
 - When you upload a resume (PDF), it is converted to an image.
 - Gemini-Pro Vision reads the resume image and job description.
 - Based on your selected button, it either:
+- Gives professional HR feedback, or
+- Returns a match percentage, missing keywords, and improvement advice.
 
-#####   ----> Gives professional HR feedback, or
-
-#####   ----> Returns a match percentage, missing keywords, and improvement advice.
-
-# 📈 Future Improvements
+# Future Improvements
 
 - Add multi-page PDF support
 - Include skill suggestions using external APIs
