@@ -80,7 +80,5 @@ pip install -r requirements.txt
 
  http://192.168.1.2:8501
 
-🙋‍♂️
-👨‍💻 Developed by Prajwal 
-
+🙋‍♂️👨‍💻 Prajwal 
 https://www.instagram.com/prajwal.ghotkar_
